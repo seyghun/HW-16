@@ -1,6 +1,7 @@
 import './App.css';
 import anakin from "./images/anakin.jpg";
 import check from "./images/check.png";
+import Post from "./Post";
 
 export default function App() {
   return (
@@ -10,7 +11,9 @@ export default function App() {
       <img className='check' src={check} alt='check'></img>
       <p id='profile_tag'>@dart_vader</p>
       <p id='date'>26 лют.</p>
+      <Post />
     </div>
+
   );
 }
 
